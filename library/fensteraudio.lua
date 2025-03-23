@@ -17,7 +17,8 @@ function audiodevice:close() end
 function audiodevice:available() end
 
 ---@param samples number[]
-function audiodevice:write(samples) end
+---@param samplesend integer?
+function audiodevice:write(samples, samplesend) end
 
 ---@param key string
 ---@return any
@@ -52,6 +53,7 @@ function fensteraudio.available(audiodevice) end
 
 ---@param audiodevice audiodevice*
 ---@param samples number[]
-function fensteraudio.write(audiodevice, samples) end
+---@param samplesend integer?
+function fensteraudio.write(audiodevice, samples, samplesend) end
 
 return fensteraudio

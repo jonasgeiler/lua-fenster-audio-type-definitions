@@ -1,8 +1,8 @@
 ---@meta
 --[[
 
-Type definitions for lua-fenster-audio
-https://github.com/jonasgeiler/lua-fenster-audio
+Type definitions for lua-fensteraudio
+https://github.com/jonasgeiler/lua-fensteraudio
 https://luarocks.org/modules/jonasgeiler/fensteraudio
 
 --]]
